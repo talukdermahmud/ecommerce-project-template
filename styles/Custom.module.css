@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  padding: 1rem;
+  background-color: #4169e1;
+  color: white;
+  gap: 20rem;
+  align-items: center;
+}
+
+.companyLogo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.innerItems {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.componentWappers {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.topbar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  /* margin-left: -5rem; */
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
